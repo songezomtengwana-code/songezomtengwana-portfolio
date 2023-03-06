@@ -1,0 +1,59 @@
+@keyframes loading-over {
+  from {
+    transform: scale(1) rotate(0);
+    opacity: 1;
+  }
+  to {
+    transform: scale(0) rotate(190deg);
+    opacity: 0;
+  }
+}
+@keyframes updown {
+  from {
+    transform: translateY(10px);
+  }
+  to {
+    transform: translateY(-10px);
+  }
+}
+@keyframes pop {
+  0% {
+    transform: rotate(360deg) scale(0);
+    opacity: 0;
+  }
+  75% {
+    transform: rotate(-27.5deg) scale(1);
+    opacity: 0.5;
+  }
+  100% {
+    transform: rotate(0);
+    opacity: 1;
+  }
+}
+@keyframes unveil {
+  0% {
+    transform: scaleY(1);
+    transform-origin: right;
+  }
+  100% {
+    transform: scaleY(0);
+    transform-origin: right;
+  }
+}
+@keyframes drop-off {
+  0% {
+    transform: translateY(-5vh);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0vh);
+    opacity: 1;
+  }
+}
+
+@keyframes wheel {
+  to {
+    opacity: 0;
+    top: 35px;
+  }
+}
