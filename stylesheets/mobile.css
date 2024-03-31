@@ -70,7 +70,7 @@
     font-weight: bold !important;
   }
   .section .section-0 cite {
-    font-size: 1rem;
+    font-size: 1rem !important;
   }
   .section-0 {
     margin-top: 15% !important;
@@ -79,7 +79,16 @@
     font-size: 2.25rem !important;
     letter-spacing: 5px !important;
   }
-  .section .cards-display:nth-of-type(2) {
+
+  .section-1 {
+    padding: 16px !important;
+  }
+
+  p.section-1-paragraph {
+    text-align: center !important;
+  }
+
+  /* .section .cards-display:nth-of-type(2) {
     z-index: 10;
     filter: drop-shadow(0px 0px 2.5px var(--base));
   }
@@ -89,19 +98,20 @@
     transform: unset !important;
     transform: rotate(15deg) !important;
     filter: drop-shadow(0px 0px 6px #141414);
-  }
+  } */
   section.section-2-cards {
     position: relative;
     display: grid !important;
     place-content: center;
+    /* filter: drop-shadow(0px 0px 1px var(--base)); */
   }
-  .section .cards-display:nth-of-type(3) {
+  /* .section .cards-display:nth-of-type(3) {
     position: absolute;
     top: 0vh;
     transform: unset !important;
     transform: rotate(-15deg) !important;
     filter: drop-shadow(0px 0px 6px #141414);
-  }
+  } */
   section.section-2-cards::before {
     content: "<";
     position: absolute;
@@ -126,6 +136,7 @@
   section.section-2-cards::before {
     cursor: pointer;
     color: var(--base);
+    display: none !important;
   }
   .box-displayer {
     flex-wrap: wrap !important;
@@ -150,4 +161,52 @@
     font-size: 2.25rem !important;
     letter-spacing: 5px !important;
   }
-}/*# sourceMappingURL=mobile.css.map */
+  section.float {
+    flex-direction: row;
+    top: unset;
+    bottom: 1rem;
+    width: 82.5%;
+    left: unset;
+    justify-content: space-evenly;
+  }
+
+  .footer {
+    padding: 2rem !important;
+  }
+  .section-2-list {
+    justify-content: center !important;
+    align-items: center !important;
+    flex-direction: column !important;
+  }
+
+  section.footer {
+    padding: 1rem;
+  }
+
+  .form-container {
+    width: unset !important;
+  }
+
+  button.container-button {
+    width: 73.5vw;
+  }
+
+  .footer-form {
+    width: 100%;
+  }
+
+  input,
+  textarea {
+    margin: unset !important;
+  }
+  .carousel {
+    width: 107vw !important;
+    height: 143vw !important;
+    border-radius: 3px;
+    overflow: hidden;
+    position: relative;
+  }
+  .cards-display-clear {
+    max-width: unset !important;
+  }
+} /*# sourceMappingURL=mobile.css.map */
