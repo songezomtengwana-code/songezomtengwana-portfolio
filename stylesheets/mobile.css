@@ -164,6 +164,7 @@
   section.float {
     flex-direction: row;
     top: unset;
+    align-items: unset;
     bottom: 1rem;
     width: 82.5%;
     left: unset;
