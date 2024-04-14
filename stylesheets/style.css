@@ -138,6 +138,8 @@ nav.nav a.nav-container-cta {
 .hero span.hero-container-right-image {
   height: 40vh;
   width: 40vh;
+  border-radius: 100%;
+  overflow: hidden;
 }
 .hero section.hero-container-left {
   display: flex;
