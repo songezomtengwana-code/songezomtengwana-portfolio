@@ -148,8 +148,9 @@
     width: 30vw !important;
   }
   .box-displayer-skill {
-    width: 100px !important;
-    height: 100px !important;
+    width: max-content!important;
+    height: unset!important;
+    flex-direction: column !important;
   }
   .section-container-panel-title {
     font-size: 5vh !important;
@@ -164,9 +165,9 @@
   section.float {
     flex-direction: row;
     top: unset;
-    align-items: unset;
+    align-items: center;
     bottom: 1rem;
-    width: 82.5%;
+    width: 80%;
     left: unset;
     justify-content: space-evenly;
   }
