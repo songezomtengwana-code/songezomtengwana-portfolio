@@ -148,8 +148,8 @@
     width: 30vw !important;
   }
   .box-displayer-skill {
-    width: max-content!important;
-    height: unset!important;
+    width: max-content !important;
+    height: unset !important;
     flex-direction: column !important;
   }
   .section-container-panel-title {
@@ -210,5 +210,13 @@
   }
   .cards-display-clear {
     max-width: unset !important;
+  }
+
+  .slide-buttons-button {
+    width: "100%" !important;
+  }
+
+  .slide-buttons {
+    flex-direction: column !important;
   }
 } /*# sourceMappingURL=mobile.css.map */

@@ -528,6 +528,11 @@ p.section-content-title {
   color: var(--white);
 }
 
+img.timeline-image {
+  margin-top: 1rem;
+  filter: contrast(1);
+}
+
 section.footer {
   background: var(--dark-blend);
   padding: 2.5rem 5rem;
@@ -645,6 +650,26 @@ img.project-image {
 .stack-icon i {
   color: var(--white);
   font-size: 1.5rem;
+}
+
+.slide-buttons-button {
+  padding: 0.5rem 1.25rem;
+  background: var(--base);
+  border-radius: 5rem;
+  color: var(--dark);
+  text-decoration: none;
+  font-weight: bold;
+  border-color: transparent; /* margin-left: auto; */
+  font-size: 0.85rem;
+}
+
+.slide-buttons {
+  flex-direction: row;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1.5rem;
 }
 
 .float {
