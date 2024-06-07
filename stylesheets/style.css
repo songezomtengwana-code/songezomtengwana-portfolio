@@ -222,12 +222,12 @@ nav.nav a.nav-container-cta {
   min-height: 35vh;
   display: grid;
   place-content: center;
-  text-align: center;
+  /* text-align: center; */
 }
 .section .section-0 {
   margin-top: 10%;
   margin-bottom: 10%;
-  text-align: center;
+  /* text-align: center; */
 }
 .section .section-0 p {
   font-size: 1.25vw;
@@ -247,7 +247,7 @@ nav.nav a.nav-container-cta {
 .section-1-body {
   flex-direction: row;
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   gap: 10px;
 }
 
@@ -338,14 +338,14 @@ nav.nav a.nav-container-cta {
   gap: 20px;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
 }
 
 .section-2-list-item {
   color: var(--white);
   font-size: 1.125rem;
   position: relative;
-  align-items: center;
+  /* align-items: center; */
   display: flex;
   margin-left: 10px;
 }
@@ -476,6 +476,7 @@ p.section-content-title {
   flex-flow: column;
   gap: 0.5rem;
   align-items: center;
+  margin-bottom: 5rem;
 }
 
 .timeline-indicator-point {
@@ -498,12 +499,11 @@ p.section-content-title {
 
 .timeline-content-year {
   font-weight: bold;
-  font-size: 0.85rem;
   color: var(--white);
 }
 
 .timeline-content-workplace {
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   font-weight: 400;
   color: var(--white);
   margin: 0.5rem 0 0 0;
@@ -630,7 +630,7 @@ img.project-image {
 
 .project {
   font-weight: bold;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   color: var(--base);
 }
 
@@ -642,8 +642,8 @@ img.project-image {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
-  margin: 0.5rem;
+  /* justify-content: center; */
+  margin: 1rem;
   gap: 1rem;
 }
 
@@ -659,6 +659,7 @@ img.project-image {
   color: var(--dark);
   text-decoration: none;
   font-weight: bold;
+  margin-top: 0.5rem;
   border-color: transparent; /* margin-left: auto; */
   font-size: 0.85rem;
 }
@@ -668,7 +669,7 @@ img.project-image {
   display: flex;
   gap: 1rem;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
   margin-top: 1.5rem;
 }
 
@@ -707,6 +708,13 @@ img.project-image {
 
 .content {
   color: var(--white);
-  text-align: center;
-  padding: 0 2rem;
+  /* text-align: center; */
+  /* padding: 0 2rem; */
+}
+
+.timelime-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
 }
