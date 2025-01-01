@@ -685,6 +685,8 @@
                         </div>
                     </div>
             </section>
+
+            <!-- START EDUCATION SECTION -->
             <section class="section-1" id="education">
                 <div style="margin-bottom:2rem;">
                     <p class="section-1-title" data-aos-duration="1500" data-aos="fade-left">
@@ -721,6 +723,7 @@
                     </section>
                 </div>
             </section>
+            <!-- END EDUCATION SECTION -->
             <section class="footer" data-aos-duration="1500" data-aos="fade-up">
                 <div class="form-instruction">
                     Get in touch
@@ -748,11 +751,13 @@
                 </div>
                 <footer>
                     <div class="main-footer-left" data-aos-duration="1500" data-aos="fade-up">
-                        Made with 💚 by Songezo Mtengwana © 2024
+                        Made with 💚 by Songezo Mtengwana © <span id="year"></span>
                     </div>
                     <section class="main-footer-left">
-                        <a href="https://github.com/songezomtengwana-code"><i class="fa-brands fa-github"
-                                style="font-size: 1.5rem;"></i></a>
+                        <a href="https://github.com/songezomtengwana-code">
+                            <i class="fa-brands fa-github" style="font-size: 1.5rem;"></i>
+                        </a>
+                        
                     </section>
                 </footer>
             </section>
@@ -778,6 +783,12 @@
             </section>
         </div>
     </div>
+    <script>
+        const yearElement = document.getElementById('year');
+        const activeYear = new Date().getFullYear();
+
+        year.textContent = activeYear
+    </script>
     <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
